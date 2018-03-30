@@ -1,0 +1,12 @@
+ls
+if(!require(devtools)) install.packages("devtools")
+library(devtools)#
+install_github("kosukeimai/redist",dependencies=TRUE)
+load("/Users/gwc/Documents/Thesis/fifield/redist/data/algdat.p10.rda")
+getwd()
+setwd(/Users/gwc/Documents/Thesis/fifield)
+setwd(Users/gwc/Documents/Thesis/fifield)
+setwd("/Users/gwc/Documents/Thesis/fifield/")
+getwd()
+library(devtools)#
+install_github("kosukeimai/redist",dependencies=TRUE)

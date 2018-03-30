@@ -1,8 +1,8 @@
 import pandas as pd
 
-df=pd.read_csv('qgisadjmatrix.csv', sep=',',header=None, dtype=object)
+df=pd.read_csv('qgisadjmatrix.csv', sep=',',header=0, index_col=0, dtype=object)
 
-df.sort_values(by=[0], axis=0)
-df.sort_values(by=[0], axis=1)
+df.sort_index(axis=0)
+df.sort_index(axis=1)
 
-df.to_csv("sortedqgisadj.csv", header=None, index=None)
+df.to_csv("sortedqgisadj.csv", header=True, index=True)

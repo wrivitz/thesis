@@ -1,3 +1,4 @@
 *.csv
 adjacency/adjmatrix.csv
 *.gml
+.Rproj.user
